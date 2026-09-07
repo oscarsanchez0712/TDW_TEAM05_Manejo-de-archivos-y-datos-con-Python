@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block titulo %}Manejo de archivos y datos con Python{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/input.css') }}">
+</head>
+<body class="p-6">
+  <div class="max-w-xl">
+    {% block contenido %}{% endblock %}
+  </div>
+
+  <script src="{{ url_for('static', filename='js/style.js') }}"></script>
+</body>
+</html>

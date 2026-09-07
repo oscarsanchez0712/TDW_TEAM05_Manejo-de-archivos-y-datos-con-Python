@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+  <h1 class="text-2xl font-bold mb-1">Manejo de archivos y datos con Python</h1>
+  <p class="mb-6">Demo con Flask</p>
+
+  <form id="formSubir" class="mb-2">
+    <input type="file" name="archivo" id="inputArchivo" accept=".txt,.csv,.json,.md">
+    <button type="submit">Subir y analizar archivo</button>
+  </form>
+  <p id="mensaje" class="hidden"></p>
+
+  <div id="resultado" class="hidden mb-6"></div>
+  <p id="sinResultado" class="mb-6">Aún no hay archivo procesado.</p>
+
+  <h2 class="font-semibold mb-2">Historial</h2>
+  <ul id="listaHistorial"></ul>
+{% endblock %}

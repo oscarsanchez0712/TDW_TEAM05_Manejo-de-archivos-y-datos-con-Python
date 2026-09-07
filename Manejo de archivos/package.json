@@ -1,0 +1,15 @@
+{
+  "name": "demo_python_archivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "echo 'output.css ya está reducido y comentado a mano. Si agregas clases nuevas de Tailwind, agrégalas manualmente ahí o recompila con: npx tailwindcss -i ./app/static/css/input.css -o ./app/static/css/output.css --config tailwind.config.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
