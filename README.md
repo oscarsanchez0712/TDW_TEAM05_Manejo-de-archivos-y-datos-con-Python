@@ -85,11 +85,8 @@ En Windows PowerShell:
 venv\Scripts\activate
 ```
 
-Si se activó correctamente, aparecerá algo parecido a:
-
-```text
-(venv) PS C:\Users\sanch\Desktop\Manejo de archivos>
-```
+Si se activó correctamente, el entorno virtual quedará activo y aparecerá
+`(venv)` al inicio de la línea de comandos.
 
 ---
 
